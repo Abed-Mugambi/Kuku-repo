@@ -1,0 +1,312 @@
+.App{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  
+
+
+.listitem{
+    display: inline;
+    margin-right: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+.mktplace{
+    background-color: rgb(214, 236, 116);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.mktplace:hover{
+    background-color: red;
+}
+.mktplace:focus{
+    outline: none;
+  }
+  
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 12vh;
+    background-color: aquamarine;
+  }
+  
+  .logo{
+    margin: auto;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  
+  /* HERO SECTION */
+ 
+  .about{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: rgb(228, 215, 215);
+  }
+
+  .div-left{
+    background-image: url(../images/kuku4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    text-align: center;
+  }
+   .div-left button{
+    background-color: red;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 20px;
+   
+}
+.div-left button:hover{
+    cursor: pointer;
+    
+}
+.div-left button:focus{
+    outline: none;
+}
+
+.div-left h2{
+    padding-bottom: 19px;
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
+    width: 400px;
+}
+
+.div-left p{
+padding-bottom: 20px;
+font-size: 16px;
+font-weight: 400;
+color: white;
+width: 400px;
+}
+
+
+  .div-left button{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 0;
+    
+    font-size: 20px;
+  }
+ 
+
+  .button:hover{
+    cursor: pointer;
+  }
+  
+  /* why choose us */
+  .sec1{
+    display: flex;
+    justify-content: center;
+}
+/* .images{
+    width: 300px;
+    margin: 30px;
+    border-radius: 10px;
+    height: 35vh;
+} */
+.images1{
+    background-image: url(../images/download\ 2.jpg);
+    /* max-width:100%;
+    max-height:100%; */
+    width: 300px;
+    height: 35vh;
+    margin: 30px;
+    /* border-radius: 10px 10px; */
+    
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    object-fit: fill;
+}
+.images2{
+    background-image: url(../images/images\ \(1\).jpg);
+    width: 300px;
+    height: 35vh;
+    margin: 30px;
+    /* border-radius: 10px; */
+    
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    object-fit: fill;
+
+}
+.images3{
+    background-image: url(../images/images\ \(2\).jpg);
+    width: 300px;
+    height: 35vh;
+    margin: 30px;
+    /* border-radius: 10px; */
+   
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    object-fit: fill;
+
+}
+
+.imagecont{
+    width: 325px;
+}
+.head{
+    margin-top: 10vh;
+    margin-left: 490px;
+}
+.par{
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.ol{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-left: 2vh;
+    width: 250px;
+    list-style-type: square;
+}
+.text1{
+    margin-left: 6vh;
+}
+.text2{
+    margin-left: 6vh;
+}
+.text3{
+    margin-left: 6vh;
+}
+
+  /* how it works */
+  .work{
+    background-color: rgba(255,148,110,.2);
+    width: 50%;
+    height: 100vh;
+}
+.family{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.cooking{
+    height: 100vh;
+    width: 50%;
+    background-image: url(../images/pexels-cottonbro-4911746.jpg);
+    background-size: cover;
+}
+.how{
+    color: red;
+    font-size: 50px;
+    margin-top: 10vh;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+.simplify{
+    width: 70%;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.ol2{
+    margin-left: 80px;
+}
+.li1, .li2, .li3,.li4{
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.learn{
+    padding: 20px 40px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 40px;
+    
+}
+.learn:focus{
+    outline: none;
+  }
+  
+
+  /* footer */
+
+  .finally{
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+}
+.last{
+    height: 10vh;
+}
+.l1{
+    list-style: none;
+}
+.cat{
+    height: 15vh;
+    border-radius: 10px;
+    width: 160px;
+}
+.fall{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fy{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+.letter{
+    padding: 14px;
+    border-right: none;
+    border-width: thin;
+    border-color: grey;
+    border-radius: 5px 0px 0px 5px;
+}
+.newsletter{
+    background-color: red;
+    border: none;
+    padding: 15px;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    font-weight: bolder;
+}
+.to{
+    font-weight: bold;
+    color: darkslategrey;
+}
+.see{
+    font-weight: bold;
+    color: darkslategrey;
+}
+.fu{
+    font-weight: bold;
+    color: darkslategrey;
+}
+.uae{
+    font-weight: 550;
+    color: darkslategrey;
+    margin-top: 5vh;
+}
